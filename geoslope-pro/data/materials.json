@@ -1,0 +1,754 @@
+{
+  "rocas_igneas": {
+    "Granito Sano": {
+      "c_prime": {
+        "min": 2000,
+        "max": 5000,
+        "typical": 3500,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 50,
+        "max": 60,
+        "typical": 55,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 26,
+        "max": 28,
+        "typical": 27,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 150,
+        "max": 250,
+        "typical": 200,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 32,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 65,
+        "max": 85,
+        "typical": 75,
+        "unit": "adimensional"
+      },
+      "category": "Roca Ígnea",
+      "description": "Granito sano, macizo rocoso competente"
+    },
+    "Granito Fracturado": {
+      "c_prime": {
+        "min": 500,
+        "max": 2500,
+        "typical": 1500,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 35,
+        "max": 50,
+        "typical": 42,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 25,
+        "max": 28,
+        "typical": 26.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 80,
+        "max": 150,
+        "typical": 115,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 32,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 40,
+        "max": 65,
+        "typical": 52,
+        "unit": "adimensional"
+      },
+      "category": "Roca Ígnea",
+      "description": "Granito con fracturamiento moderado"
+    },
+    "Diorita": {
+      "c_prime": {
+        "min": 400,
+        "max": 1200,
+        "typical": 800,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 38,
+        "max": 52,
+        "typical": 45,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 26,
+        "max": 28,
+        "typical": 27,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 80,
+        "max": 200,
+        "typical": 140,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 25,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 50,
+        "max": 70,
+        "typical": 60,
+        "unit": "adimensional"
+      },
+      "category": "Roca Ígnea",
+      "description": "Diorita, roca ígnea intrusiva"
+    },
+    "Andesita": {
+      "c_prime": {
+        "min": 300,
+        "max": 800,
+        "typical": 550,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 35,
+        "max": 45,
+        "typical": 40,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 24,
+        "max": 26,
+        "typical": 25,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 60,
+        "max": 150,
+        "typical": 105,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 19,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 45,
+        "max": 65,
+        "typical": 55,
+        "unit": "adimensional"
+      },
+      "category": "Roca Ígnea",
+      "description": "Andesita, roca volcánica extrusiva"
+    },
+    "Basalto": {
+      "c_prime": {
+        "min": 800,
+        "max": 3000,
+        "typical": 1900,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 40,
+        "max": 55,
+        "typical": 47,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 27,
+        "max": 30,
+        "typical": 28.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 80,
+        "max": 250,
+        "typical": 165,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 25,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 55,
+        "max": 80,
+        "typical": 67,
+        "unit": "adimensional"
+      },
+      "category": "Roca Ígnea",
+      "description": "Basalto, roca volcánica extrusiva"
+    }
+  },
+  "rocas_sedimentarias": {
+    "Caliza Sana": {
+      "c_prime": {
+        "min": 500,
+        "max": 1500,
+        "typical": 1000,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 35,
+        "max": 45,
+        "typical": 40,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 24,
+        "max": 27,
+        "typical": 25.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 80,
+        "max": 120,
+        "typical": 100,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 10,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 55,
+        "max": 75,
+        "typical": 65,
+        "unit": "adimensional"
+      },
+      "category": "Roca Sedimentaria",
+      "description": "Caliza sana, roca sedimentaria carbonatada"
+    },
+    "Caliza Fracturada": {
+      "c_prime": {
+        "min": 300,
+        "max": 800,
+        "typical": 550,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 30,
+        "max": 42,
+        "typical": 36,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 24,
+        "max": 27,
+        "typical": 25.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 40,
+        "max": 80,
+        "typical": 60,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 10,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 40,
+        "max": 60,
+        "typical": 50,
+        "unit": "adimensional"
+      },
+      "category": "Roca Sedimentaria",
+      "description": "Caliza con fracturamiento moderado"
+    },
+    "Arenisca": {
+      "c_prime": {
+        "min": 250,
+        "max": 1000,
+        "typical": 625,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 32,
+        "max": 45,
+        "typical": 38,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 22,
+        "max": 26,
+        "typical": 24,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 30,
+        "max": 100,
+        "typical": 65,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 17,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 40,
+        "max": 65,
+        "typical": 52,
+        "unit": "adimensional"
+      },
+      "category": "Roca Sedimentaria",
+      "description": "Arenisca, roca sedimentaria detrítica"
+    },
+    "Lutita": {
+      "c_prime": {
+        "min": 80,
+        "max": 300,
+        "typical": 190,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 22,
+        "max": 35,
+        "typical": 28,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 22,
+        "max": 25,
+        "typical": 23.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 20,
+        "max": 60,
+        "typical": 40,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 7,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 25,
+        "max": 45,
+        "typical": 35,
+        "unit": "adimensional"
+      },
+      "category": "Roca Sedimentaria",
+      "description": "Lutita, roca sedimentaria arcillosa"
+    }
+  },
+  "rocas_metamorficas": {
+    "Pizarra": {
+      "c_prime": {
+        "min": 100,
+        "max": 500,
+        "typical": 300,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 25,
+        "max": 38,
+        "typical": 31,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 24,
+        "max": 27,
+        "typical": 25.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 40,
+        "max": 80,
+        "typical": 60,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 10,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 40,
+        "max": 60,
+        "typical": 50,
+        "unit": "adimensional"
+      },
+      "category": "Roca Metamórfica",
+      "description": "Pizarra, roca metamórfica foliada"
+    },
+    "Filita": {
+      "c_prime": {
+        "min": 150,
+        "max": 600,
+        "typical": 375,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 28,
+        "max": 40,
+        "typical": 34,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 24,
+        "max": 27,
+        "typical": 25.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 30,
+        "max": 80,
+        "typical": 55,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 10,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 30,
+        "max": 55,
+        "typical": 42,
+        "unit": "adimensional"
+      },
+      "category": "Roca Metamórfica",
+      "description": "Filita, roca metamórfica foliada"
+    },
+    "Esquisto": {
+      "c_prime": {
+        "min": 200,
+        "max": 800,
+        "typical": 500,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 30,
+        "max": 42,
+        "typical": 36,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 25,
+        "max": 28,
+        "typical": 26.5,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 50,
+        "max": 100,
+        "typical": 75,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 15,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 40,
+        "max": 65,
+        "typical": 52,
+        "unit": "adimensional"
+      },
+      "category": "Roca Metamórfica",
+      "description": "Esquisto, roca metamórfica foliada"
+    },
+    "Gneis": {
+      "c_prime": {
+        "min": 300,
+        "max": 1000,
+        "typical": 650,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 35,
+        "max": 50,
+        "typical": 42,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 26,
+        "max": 28,
+        "typical": 27,
+        "unit": "kN/m³"
+      },
+      "sigma_ci": {
+        "min": 80,
+        "max": 150,
+        "typical": 115,
+        "unit": "MPa"
+      },
+      "mi": {
+        "value": 28,
+        "unit": "adimensional"
+      },
+      "gsi_typical": {
+        "min": 50,
+        "max": 75,
+        "typical": 62,
+        "unit": "adimensional"
+      },
+      "category": "Roca Metamórfica",
+      "description": "Gneis, roca metamórfica bandeada"
+    }
+  },
+  "suelos": {
+    "Suelo Residual Granítico": {
+      "c_prime": {
+        "min": 10,
+        "max": 30,
+        "typical": 20,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 28,
+        "max": 35,
+        "typical": 31,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 16,
+        "max": 18,
+        "typical": 17,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 18,
+        "max": 20,
+        "typical": 19,
+        "unit": "kN/m³"
+      },
+      "gsi_typical": {
+        "min": 15,
+        "max": 25,
+        "typical": 20,
+        "unit": "adimensional"
+      },
+      "category": "Suelo Residual",
+      "description": "Suelo residual de granito"
+    },
+    "Suelo Residual Andesítico": {
+      "c_prime": {
+        "min": 15,
+        "max": 35,
+        "typical": 25,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 30,
+        "max": 38,
+        "typical": 34,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 17,
+        "max": 19,
+        "typical": 18,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 19,
+        "max": 21,
+        "typical": 20,
+        "unit": "kN/m³"
+      },
+      "gsi_typical": {
+        "min": 15,
+        "max": 25,
+        "typical": 20,
+        "unit": "adimensional"
+      },
+      "category": "Suelo Residual",
+      "description": "Suelo residual de andesita"
+    },
+    "Material Coluvial": {
+      "c_prime": {
+        "min": 5,
+        "max": 20,
+        "typical": 12,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 25,
+        "max": 32,
+        "typical": 28,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 15,
+        "max": 17,
+        "typical": 16,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 17,
+        "max": 19,
+        "typical": 18,
+        "unit": "kN/m³"
+      },
+      "gsi_typical": {
+        "min": 10,
+        "max": 20,
+        "typical": 15,
+        "unit": "adimensional"
+      },
+      "category": "Material Coluvial",
+      "description": "Material coluvial, depósito de ladera"
+    },
+    "Arcilla Blanda": {
+      "c_prime": {
+        "min": 10,
+        "max": 25,
+        "typical": 17,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 10,
+        "max": 18,
+        "typical": 14,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 17,
+        "max": 20,
+        "typical": 18.5,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 19,
+        "max": 21,
+        "typical": 20,
+        "unit": "kN/m³"
+      },
+      "cu": {
+        "min": 20,
+        "max": 40,
+        "typical": 30,
+        "unit": "kPa"
+      },
+      "gsi_typical": {
+        "min": 5,
+        "max": 15,
+        "typical": 10,
+        "unit": "adimensional"
+      },
+      "category": "Arcilla",
+      "description": "Arcilla blanda, suelo cohesivo blando"
+    },
+    "Arcilla Compacta": {
+      "c_prime": {
+        "min": 50,
+        "max": 120,
+        "typical": 85,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 18,
+        "max": 25,
+        "typical": 21,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 18,
+        "max": 20,
+        "typical": 19,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 20,
+        "max": 22,
+        "typical": 21,
+        "unit": "kN/m³"
+      },
+      "cu": {
+        "min": 60,
+        "max": 100,
+        "typical": 80,
+        "unit": "kPa"
+      },
+      "gsi_typical": {
+        "min": 5,
+        "max": 15,
+        "typical": 10,
+        "unit": "adimensional"
+      },
+      "category": "Arcilla",
+      "description": "Arcilla compacta, suelo cohesivo duro"
+    },
+    "Arena Suelta": {
+      "c_prime": {
+        "min": 0,
+        "max": 0,
+        "typical": 0,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 28,
+        "max": 32,
+        "typical": 30,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 15,
+        "max": 18,
+        "typical": 16.5,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 18,
+        "max": 21,
+        "typical": 19.5,
+        "unit": "kN/m³"
+      },
+      "gsi_typical": {
+        "min": 5,
+        "max": 15,
+        "typical": 10,
+        "unit": "adimensional"
+      },
+      "category": "Arena",
+      "description": "Arena suelta, suelo granular"
+    },
+    "Arena Densa": {
+      "c_prime": {
+        "min": 0,
+        "max": 10,
+        "typical": 5,
+        "unit": "kPa"
+      },
+      "phi_prime": {
+        "min": 32,
+        "max": 40,
+        "typical": 36,
+        "unit": "°"
+      },
+      "gamma": {
+        "min": 16,
+        "max": 19,
+        "typical": 17.5,
+        "unit": "kN/m³"
+      },
+      "gamma_sat": {
+        "min": 19,
+        "max": 22,
+        "typical": 20.5,
+        "unit": "kN/m³"
+      },
+      "gsi_typical": {
+        "min": 5,
+        "max": 15,
+        "typical": 10,
+        "unit": "adimensional"
+      },
+      "category": "Arena",
+      "description": "Arena densa, suelo granular compactado"
+    }
+  }
+}
