@@ -12,7 +12,11 @@ ingeniería geotecnica. Implementa 6 métodos de análisis, clasificación GSI,
 análisis estadístico y generación de informes técnicos.
 ================================================================================
 """
+import sys
+import os
 
+# Agregar el directorio actual al path para que encuentre los módulos
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
