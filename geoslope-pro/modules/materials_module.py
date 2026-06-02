@@ -289,17 +289,17 @@ def render_materials_table():
             rows = []
             for name, props in materials.items():
                 row = {"Material": name}
-                row["c' (kPa)"] = f"{props['c_prime']['min']}-{props['c_prime']['max']}"
-                row["φ' (°)"] = f"{props['phi_prime']['min']}-{props['phi_prime']['max']}"
-                row["γ (kN/m³)"] = f"{props['gamma']['min']}-{props['gamma']['max']}"
+                row["c' (kPa)"] = f"{props['c_prime']['min']}-{props['c_prime']['max']}" 
+                row["φ' (°)"] = f"{props['phi_prime']['min']}-{props['phi_prime']['max']}" 
+                row["γ (kN/m³)"] = f"{props['gamma']['min']}-{props['gamma']['max']}" 
                 if "sigma_ci" in props:
-                    row["σci (MPa)"] = f"{props['sigma_ci']['min']}-{props['sigma_ci']['max']}"
+                    row["σci (MPa)"] = f"{props['sigma_ci']['min']}-{props['sigma_ci']['max']}" 
                     row["mi"] = props["mi"]["value"]
-                    row["GSI"] = f"{props['gsi_typical']['min']}-{props['gsi_typical']['max']}"
+                    row["GSI"] = f"{props['gsi_typical']['min']}-{props['gsi_typical']['max']}" 
                 if "gamma_sat" in props:
-                    row["γ_sat (kN/m³)"] = f"{props['gamma_sat']['min']}-{props['gamma_sat']['max']}"
+                    row["γ_sat (kN/m³)"] = f"{props['gamma_sat']['min']}-{props['gamma_sat']['max']}" 
                 if "cu" in props:
-                    row["cu (kPa)"] = f"{props['cu']['min']}-{props['cu']['max']}"
+                    row["cu (kPa)"] = f"{props['cu']['min']}-{props['cu']['max']}" 
                 rows.append(row)
 
             import pandas as pd
