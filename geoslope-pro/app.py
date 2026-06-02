@@ -1,10 +1,10 @@
 """
 ================================================================================
-GeoSlope Pro - Análisis de Estabilidad de Taludes
+GeoSlope Pro - Analisis de Estabilidad de Taludes
 ================================================================================
-Curso: Introducción a las Aplicaciones Digitales
+Curso: Introduccion a las Aplicaciones Digitales
 Autor: Ing. Marcio Supo Pancca
-Versión: 1.0.0
+Version: 1.0.0
 Fecha: 2026
 ================================================================================
 """
@@ -14,19 +14,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ============================================================
-# CONFIGURACIÓN DE IMPORTS - ROBUSTO PARA LOCAL Y STREAMLIT CLOUD
+# CONFIGURACION DE IMPORTS - ROBUSTO PARA LOCAL Y STREAMLIT CLOUD
 # ============================================================
 import sys
 import os
 
-# Obtener el directorio donde está app.py (funciona en local y en Streamlit Cloud)
+# Obtener el directorio donde esta app.py
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Añadir el directorio de la app al path para encontrar modules/ y data/
+# Anadir al path para encontrar modules/ y data/
 if APP_DIR not in sys.path:
     sys.path.insert(0, APP_DIR)
 
-# Ahora los imports funcionan tanto en local como en Streamlit Cloud
+# Imports de modulos
 from modules.gsi_module import render_gsi_module
 from modules.materials_module import render_materials_sidebar, render_materials_table
 from modules.geometry_module import render_geometry_module
@@ -35,7 +35,7 @@ from modules.sensitivity_module import render_sensitivity_module
 from modules.statistics_module import render_statistics_module, render_tornado_diagram
 from modules.report_module import render_report_module
 
-# Configuración de página
+# Configuracion de pagina
 st.set_page_config(
     page_title="GeoSlope Pro - Estabilidad de Taludes",
     page_icon="🏔️",
@@ -43,7 +43,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# CSS personalizado para estilo profesional
+# CSS personalizado
 st.markdown("""
 <style>
     .main-header {
@@ -96,8 +96,8 @@ st.markdown("""
 # HEADER PRINCIPAL
 # ============================================================
 st.markdown('<div class="main-header">🏔️ GeoSlope Pro</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Sistema Avanzado de Análisis de Estabilidad de Taludes</div>', unsafe_allow_html=True)
-st.markdown('<div class="author-info">📚 Curso: Introducción a las Aplicaciones Digitales | 👨‍💻 Autor: Ing. Marcio Supo Pancca</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Sistema Avanzado de Analisis de Estabilidad de Taludes</div>', unsafe_allow_html=True)
+st.markdown('<div class="author-info">📚 Curso: Introduccion a las Aplicaciones Digitales | 👨‍💻 Autor: Ing. Marcio Supo Pancca</div>', unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -108,13 +108,13 @@ with st.sidebar:
     st.markdown('<div class="sidebar-title">🎛️ Panel de Control</div>', unsafe_allow_html=True)
     material_props = render_materials_sidebar()
     st.markdown("---")
-    st.markdown("### ℹ️ Información")
+    st.markdown("### ℹ️ Informacion")
     st.info("""
     **GeoSlope Pro v1.0**
 
-    Sistema integral para el análisis de estabilidad de taludes.
+    Sistema integral para el analisis de estabilidad de taludes.
 
-    **Métodos implementados:**
+    **Metodos implementados:**
     - Talud Infinito
     - Culmann
     - Fellenius
@@ -130,10 +130,10 @@ with st.sidebar:
 # ============================================================
 tabs = st.tabs([
     "🏔️ GSI",
-    "📐 Geometría", 
-    "🔬 Métodos",
+    "📐 Geometria", 
+    "🔬 Metodos",
     "📈 Sensibilidad",
-    "📊 Estadística",
+    "📊 Estadistica",
     "📄 Informe",
     "📚 Materiales"
 ])
@@ -151,10 +151,10 @@ with tabs[3]:
     render_sensitivity_module()
 
 with tabs[4]:
-    st.markdown("### 📊 Simulación Monte Carlo")
+    st.markdown("### 📊 Simulacion Monte Carlo")
     render_statistics_module()
     st.markdown("---")
-    st.markdown("### 🌪️ Análisis de Tornado")
+    st.markdown("### 🌪️ Analisis de Tornado")
     render_tornado_diagram()
 
 with tabs[5]:
@@ -169,7 +169,7 @@ with tabs[6]:
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #888; font-size: 12px; padding: 20px;">
-    <b>GeoSlope Pro v1.0</b> | Curso: Introducción a las Aplicaciones Digitales | Autor: Ing. Marcio Supo Pancca<br>
+    <b>GeoSlope Pro v1.0</b> | Curso: Introduccion a las Aplicaciones Digitales | Autor: Ing. Marcio Supo Pancca<br>
     © 2026
 </div>
 """, unsafe_allow_html=True)
